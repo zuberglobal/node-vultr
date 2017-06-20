@@ -10,18 +10,18 @@
   "name": "vultr",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^2.6.2",
+    "bluebird": "^3.5.0",
     "moment": "^2.9.0",
-    "request-promise": "^0.4.0"
+    "request-promise": "^4.2.1"
   },
   "devDependencies": {
-    "chai": "^1.10.0",
-    "chai-as-promised": "^4.1.1",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
     "jshint": "^2.5.10",
-    "jshint-stylish": "^0.4.0",
-    "mocha": "^1.21.5",
+    "jshint-stylish": "^2.2.1",
+    "mocha": "^3.4.2",
     "optimist": "^0.6.1",
-    "sinon": "^1.12.2",
+    "sinon": "^2.3.5",
     "sinon-chai": "^2.6.0"
   },
   "description": "Promise-based library to communicate with the Vultr API",

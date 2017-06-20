@@ -1,4 +1,6 @@
 # node-vultr
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/DeviaVir/node-vultr.svg)](https://greenkeeper.io/)
 Node.JS Promise-based library to communicate with the Vultr API
 
 Test coverage is currently 100%, although some tests involving actually creating the VPS's itself are currently not tested.

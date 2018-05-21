@@ -6,6 +6,7 @@ var Promise = require('bluebird'),
 var config = require('./config');
 
 var account = require(__dirname + '/lib/account'),
+    baremetal = require(__dirname + '/lib/baremetal'),
     dns = require(__dirname + '/lib/dns'),
     iso = require(__dirname + '/lib/iso'),
     backup = require(__dirname + '/lib/backup'),
@@ -28,6 +29,7 @@ function Vultr(apiKey) {
   this.apiKey = (apiKey ? apiKey : config.vultr.apiKey);
 
   this.account = new account(this);
+  this.baremetal = new baremetal(this);
   this.dns = new dns(this);
   this.os = new os(this);
   this.iso = new iso(this);
